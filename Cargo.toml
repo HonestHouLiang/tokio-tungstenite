@@ -1,13 +1,13 @@
 [package]
-name = "tokio-tungstenite"
-description = "Tokio binding for Tungstenite, the Lightweight stream-based WebSocket implementation"
+name = "tokio-tungstenite-proxy"
+description = "tokio-tungstenite 基础上加了 tokio-socks 支持代理"
 categories = ["web-programming::websocket", "network-programming", "asynchronous", "concurrency"]
 keywords = ["websocket", "io", "web"]
 authors = ["Daniel Abramov <dabramov@snapview.de>", "Alexey Galakhov <agalakhov@snapview.de>"]
 license = "MIT"
-homepage = "https://github.com/snapview/tokio-tungstenite"
+homepage = "https://github.com/HonestHouLiang/tokio-tungstenite-proxy"
 documentation = "https://docs.rs/tokio-tungstenite/0.20.1"
-repository = "https://github.com/snapview/tokio-tungstenite"
+repository = "https://github.com/HonestHouLiang/tokio-tungstenite-proxy"
 version = "0.20.1"
 edition = "2018"
 rust-version = "1.63"
